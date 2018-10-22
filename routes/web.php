@@ -11,9 +11,36 @@
 |
 */
 
+/*
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome', [
+        'name' => 'World'
+    ]);
 });
+
+*/
+
+/*
+Route::get('/', function () {
+    $name ='LaraCast';
+    return view('welcome', compact('name'));
+});
+
+*/
+
+
+Route::get('/', function () {
+    $tasks = [
+        ' Watch LaraCast'
+        , 'Go shopping'
+        , 'Meet Jim at airport'
+    ];
+
+    $name ='My task list';
+
+    return view('welcome', compact('tasks', 'name'));
+});
+
 
 Route::get('/about', function () {
     return view('about');
