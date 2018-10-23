@@ -6,13 +6,11 @@
 </head>
 
 <body>
-   <h1> hello, <?= $name; ?> </h1>
+   <h1> show a task </h1>
 
     <ul>
 
-    @foreach ($tasks as $task)
       <li> {{$task->body}} </li>
-    @endforeach
 
     </ul>
 </body>
