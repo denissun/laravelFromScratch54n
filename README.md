@@ -6,6 +6,15 @@ c:\Denis_files_C\laravel-from-scratch-5.4n>php artisan make:migration create_tas
 Created Migration: 2018_10_22_235928_create_tasks_table
 
 
+
+1c27d0  07 Eloquent 101
+e434b1d 06 Working With Query Builder
+6397539 05 pass data to your view
+fda31f1 04 database setup
+0f1ee6c 02 Basic Routing and View
+
+
+
 #### Eloquent
 
 	php artisan make:model Task
@@ -40,3 +49,8 @@ Created Migration: 2018_10_22_235928_create_tasks_table
 	     ],
 	   }
 
+
+
+### 08 Controller
+
+php artisan make:controller TasksController 
