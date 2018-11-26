@@ -54,3 +54,8 @@ fda31f1 04 database setup
 ### 08 Controller
 
 php artisan make:controller TasksController 
+
+### start a development server
+	c:\Denis_files_C\laravel-from-scratch-5.4n>php artisan serve
+	Laravel development server started: <http://127.0.0.1:8000>
+
