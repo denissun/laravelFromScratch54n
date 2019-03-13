@@ -1,6 +1,5 @@
 Learn basic laravel from Laracast video
 
-
 ref : https://laracasts.com/series/laravel-from-scratch-2017/episodes/1
 
 ### to start a development server
@@ -63,15 +62,19 @@ fda31f1 04 database setup
 
 php artisan make:controller TasksController 
 
-### start a development server
-	c:\Denis_files_C\laravel-from-scratch-5.4n>php artisan serve
-	Laravel development server started: <http://127.0.0.1:8000>
 
+### 10 Layout ans structure
 
-
-### make model, migrationa and controller at the same time
+     ### make model, migrationa and controller at the same time
 
 c:\Denis_files_C\laravel-from-scratch-5.4n>php artisan make:model Post -mc
 Model created successfully.
 Created Migration: 2018_11_26_130558_create_posts_table
 Controller created successfully.
+
+
+// controller => PostsController
+
+// Eloquent model => Post
+
+// migration => create_posts_table
