@@ -78,3 +78,8 @@ Controller created successfully.
 // Eloquent model => Post
 
 // migration => create_posts_table
+
+
+# 11
+
+https://v4-alpha.getbootstrap.com/examples/blog/
