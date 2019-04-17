@@ -80,6 +80,27 @@ Controller created successfully.
 // migration => create_posts_table
 
 
-# 11
+# 11 Form Request Data and CSRF
+
 
 https://v4-alpha.getbootstrap.com/examples/blog/
+
+convention:
+
+posts
+
+GET /posts
+GET /posts/create
+
+POST /posts
+GET /posts/{id}/edit
+GET /posts/{id}
+PATCH /posts/{id}
+DELETE /posts/{id}
+
+
+php artisan make:controller TasksController -r 
+
+<form method="POST" action="/posts">
+           {{ csrf_field() }}
+
