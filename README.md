@@ -1,25 +1,30 @@
 Learn basic laravel from Laracast video
+=======================================
 
 ref : https://laracasts.com/series/laravel-from-scratch-2017/episodes/1
 
 ### to start a development server
 
-c:\Denis_files_C\laravel-from-scratch-5.4n>php artisan serve
+C:\Denis_files_C\laravel-from-scratch-5.4n>php artisan serve
 Laravel development server started: <http://127.0.0.1:8000>
-
 
 
 c:\Denis_files_C\laravel-from-scratch-5.4n>php artisan make:migration create_tasks_table --create=tasks
 Created Migration: 2018_10_22_235928_create_tasks_table
 
-
-
+21e1cfe (HEAD -> master) 11.1 client side validate - required
+f3c6922 11 Form Request Data and CSRF
+4d02469 10.1 blog layout done and before create form
+b176c0a 10 Layouts and Structure
+543b508 09.2 before change layout to Album example from v4-alpha.getbootstrap.com
+faaa2fe 09.1 temp
+d73520e 09 Route Model Binding
+e35fa25 08 Controllers
 1c27d0  07 Eloquent 101
 e434b1d 06 Working With Query Builder
 6397539 05 pass data to your view
 fda31f1 04 database setup
 0f1ee6c 02 Basic Routing and View
-
 
 
 #### Eloquent
@@ -83,6 +88,12 @@ Controller created successfully.
 ### 11 Form Request Data and CSRF
 
 ### 12 Form Validation 101
+
+
+
+
+#### MISC
+=========
 
 
 https://v4-alpha.getbootstrap.com/examples/blog/
