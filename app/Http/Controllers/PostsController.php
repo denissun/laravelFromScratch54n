@@ -15,13 +15,20 @@ class PostsController extends Controller
         return view('posts.index', compact('posts'));
     }
 
+    /*
     public function show($id) {
         $post = Post::find($id);
         return view('posts.show', compact('post'));
     }
 
+    */
+
+    public function show( Post $post) {
+        return view('posts.show', compact('post'));
+    }
+
     public function create() {
-        return view('posts.create');
+       return view('posts.create');
     }
 
     public function store() {
