@@ -93,6 +93,44 @@ Controller created successfully.
 npm run watch
 sass
 
+### Eloquent Relationships and Comments
+
+php artisan make:model Commnent -m 
+php artisan migrate
+
+
+	c:\Denis_files_C\laravel-from-scratch-5.4n>php artisan tinker
+	Psy Shell v0.9.9 (PHP 7.2.2 — cli) by Justin Hileman
+	>>>
+	>>> $post = App\Post::find(8);
+	=> App\Post {#2910
+		id: 8,
+		title: "Kaite is a beautiful girl",
+		body: "I agree!",
+		created_at: "2019-06-19 23:44:22",
+		updated_at: "2019-06-19 23:44:22",
+	}
+	>>> $post ->comments
+	=> Illuminate\Database\Eloquent\Collection {#2922
+		all: [
+		App\Comment {#2919
+			id: 1,
+			body: "this is a great post",
+			post_id: 8,
+			created_at: null,
+			updated_at: null,
+		},
+		App\Comment {#2921
+			id: 2,
+			body: "couldnt agree more!",
+			post_id: 8,
+			created_at: null,
+			updated_at: null,
+		},
+		],
+	}
+	>>>                                                                                                                                                                                                                                            
+
 
 
 
