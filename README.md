@@ -89,6 +89,10 @@ Controller created successfully.
 
 ### 12 Form Validation 101
 
+### 14 Laravel Mix and the Front-end
+npm run watch
+sass
+
 
 
 
