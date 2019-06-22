@@ -93,7 +93,7 @@ Controller created successfully.
 npm run watch
 sass
 
-### Eloquent Relationships and Comments
+### 15 Eloquent Relationships and Comments
 
 php artisan make:model Commnent -m 
 php artisan migrate
@@ -129,7 +129,10 @@ php artisan migrate
 		},
 		],
 	}
-	>>>                                                                                                                                                                                                                                            
+	>>>                                                                                                                                                                   
+	### 16 
+
+	php artisan make:controller CommentsController                                                                         
 
 
 
